@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F0526712B0BA4D6004F2865 /* Swiftui_flygg_resorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0526702B0BA4D6004F2865 /* Swiftui_flygg_resorApp.swift */; };
+		1F0526732B0BA4D6004F2865 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0526722B0BA4D6004F2865 /* ContentView.swift */; };
+		1F0526752B0BA4D7004F2865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0526742B0BA4D7004F2865 /* Assets.xcassets */; };
+		1F0526782B0BA4D7004F2865 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0526772B0BA4D7004F2865 /* Preview Assets.xcassets */; };
+		1F0526822B0BA4D7004F2865 /* Swiftui_flygg_resorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0526812B0BA4D7004F2865 /* Swiftui_flygg_resorTests.swift */; };
+		1F05268C2B0BA4D7004F2865 /* Swiftui_flygg_resorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05268B2B0BA4D7004F2865 /* Swiftui_flygg_resorUITests.swift */; };
+		1F05268E2B0BA4D7004F2865 /* Swiftui_flygg_resorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05268D2B0BA4D7004F2865 /* Swiftui_flygg_resorUITestsLaunchTests.swift */; };
+		1F05269B2B0BA50A004F2865 /* flyggresor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05269A2B0BA509004F2865 /* flyggresor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F05267E2B0BA4D7004F2865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0526652B0BA4D6004F2865 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F05266C2B0BA4D6004F2865;
+			remoteInfo = "Swiftui-flygg-resor";
+		};
+		1F0526882B0BA4D7004F2865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0526652B0BA4D6004F2865 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F05266C2B0BA4D6004F2865;
+			remoteInfo = "Swiftui-flygg-resor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F05266D2B0BA4D6004F2865 /* Swiftui-flygg-resor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swiftui-flygg-resor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0526702B0BA4D6004F2865 /* Swiftui_flygg_resorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftui_flygg_resorApp.swift; sourceTree = "<group>"; };
+		1F0526722B0BA4D6004F2865 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F0526742B0BA4D7004F2865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F0526772B0BA4D7004F2865 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F05267D2B0BA4D7004F2865 /* Swiftui-flygg-resorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swiftui-flygg-resorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0526812B0BA4D7004F2865 /* Swiftui_flygg_resorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftui_flygg_resorTests.swift; sourceTree = "<group>"; };
+		1F0526872B0BA4D7004F2865 /* Swiftui-flygg-resorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swiftui-flygg-resorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F05268B2B0BA4D7004F2865 /* Swiftui_flygg_resorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftui_flygg_resorUITests.swift; sourceTree = "<group>"; };
+		1F05268D2B0BA4D7004F2865 /* Swiftui_flygg_resorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftui_flygg_resorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F05269A2B0BA509004F2865 /* flyggresor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flyggresor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F05266A2B0BA4D6004F2865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F05267A2B0BA4D7004F2865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0526842B0BA4D7004F2865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F0526642B0BA4D6004F2865 = {
+			isa = PBXGroup;
+			children = (
+				1F05266F2B0BA4D6004F2865 /* Swiftui-flygg-resor */,
+				1F0526802B0BA4D7004F2865 /* Swiftui-flygg-resorTests */,
+				1F05268A2B0BA4D7004F2865 /* Swiftui-flygg-resorUITests */,
+				1F05266E2B0BA4D6004F2865 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F05266E2B0BA4D6004F2865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F05266D2B0BA4D6004F2865 /* Swiftui-flygg-resor.app */,
+				1F05267D2B0BA4D7004F2865 /* Swiftui-flygg-resorTests.xctest */,
+				1F0526872B0BA4D7004F2865 /* Swiftui-flygg-resorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F05266F2B0BA4D6004F2865 /* Swiftui-flygg-resor */ = {
+			isa = PBXGroup;
+			children = (
+				1F0526702B0BA4D6004F2865 /* Swiftui_flygg_resorApp.swift */,
+				1F0526722B0BA4D6004F2865 /* ContentView.swift */,
+				1F05269A2B0BA509004F2865 /* flyggresor.swift */,
+				1F0526742B0BA4D7004F2865 /* Assets.xcassets */,
+				1F0526762B0BA4D7004F2865 /* Preview Content */,
+			);
+			path = "Swiftui-flygg-resor";
+			sourceTree = "<group>";
+		};
+		1F0526762B0BA4D7004F2865 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F0526772B0BA4D7004F2865 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F0526802B0BA4D7004F2865 /* Swiftui-flygg-resorTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F0526812B0BA4D7004F2865 /* Swiftui_flygg_resorTests.swift */,
+			);
+			path = "Swiftui-flygg-resorTests";
+			sourceTree = "<group>";
+		};
+		1F05268A2B0BA4D7004F2865 /* Swiftui-flygg-resorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F05268B2B0BA4D7004F2865 /* Swiftui_flygg_resorUITests.swift */,
+				1F05268D2B0BA4D7004F2865 /* Swiftui_flygg_resorUITestsLaunchTests.swift */,
+			);
+			path = "Swiftui-flygg-resorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F05266C2B0BA4D6004F2865 /* Swiftui-flygg-resor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0526912B0BA4D7004F2865 /* Build configuration list for PBXNativeTarget "Swiftui-flygg-resor" */;
+			buildPhases = (
+				1F0526692B0BA4D6004F2865 /* Sources */,
+				1F05266A2B0BA4D6004F2865 /* Frameworks */,
+				1F05266B2B0BA4D6004F2865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swiftui-flygg-resor";
+			productName = "Swiftui-flygg-resor";
+			productReference = 1F05266D2B0BA4D6004F2865 /* Swiftui-flygg-resor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F05267C2B0BA4D7004F2865 /* Swiftui-flygg-resorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0526942B0BA4D7004F2865 /* Build configuration list for PBXNativeTarget "Swiftui-flygg-resorTests" */;
+			buildPhases = (
+				1F0526792B0BA4D7004F2865 /* Sources */,
+				1F05267A2B0BA4D7004F2865 /* Frameworks */,
+				1F05267B2B0BA4D7004F2865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F05267F2B0BA4D7004F2865 /* PBXTargetDependency */,
+			);
+			name = "Swiftui-flygg-resorTests";
+			productName = "Swiftui-flygg-resorTests";
+			productReference = 1F05267D2B0BA4D7004F2865 /* Swiftui-flygg-resorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F0526862B0BA4D7004F2865 /* Swiftui-flygg-resorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0526972B0BA4D7004F2865 /* Build configuration list for PBXNativeTarget "Swiftui-flygg-resorUITests" */;
+			buildPhases = (
+				1F0526832B0BA4D7004F2865 /* Sources */,
+				1F0526842B0BA4D7004F2865 /* Frameworks */,
+				1F0526852B0BA4D7004F2865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F0526892B0BA4D7004F2865 /* PBXTargetDependency */,
+			);
+			name = "Swiftui-flygg-resorUITests";
+			productName = "Swiftui-flygg-resorUITests";
+			productReference = 1F0526872B0BA4D7004F2865 /* Swiftui-flygg-resorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F0526652B0BA4D6004F2865 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1F05266C2B0BA4D6004F2865 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					1F05267C2B0BA4D7004F2865 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 1F05266C2B0BA4D6004F2865;
+					};
+					1F0526862B0BA4D7004F2865 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 1F05266C2B0BA4D6004F2865;
+					};
+				};
+			};
+			buildConfigurationList = 1F0526682B0BA4D6004F2865 /* Build configuration list for PBXProject "Swiftui-flygg-resor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F0526642B0BA4D6004F2865;
+			productRefGroup = 1F05266E2B0BA4D6004F2865 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F05266C2B0BA4D6004F2865 /* Swiftui-flygg-resor */,
+				1F05267C2B0BA4D7004F2865 /* Swiftui-flygg-resorTests */,
+				1F0526862B0BA4D7004F2865 /* Swiftui-flygg-resorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F05266B2B0BA4D6004F2865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0526782B0BA4D7004F2865 /* Preview Assets.xcassets in Resources */,
+				1F0526752B0BA4D7004F2865 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F05267B2B0BA4D7004F2865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0526852B0BA4D7004F2865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F0526692B0BA4D6004F2865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F05269B2B0BA50A004F2865 /* flyggresor.swift in Sources */,
+				1F0526732B0BA4D6004F2865 /* ContentView.swift in Sources */,
+				1F0526712B0BA4D6004F2865 /* Swiftui_flygg_resorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0526792B0BA4D7004F2865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0526822B0BA4D7004F2865 /* Swiftui_flygg_resorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0526832B0BA4D7004F2865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F05268E2B0BA4D7004F2865 /* Swiftui_flygg_resorUITestsLaunchTests.swift in Sources */,
+				1F05268C2B0BA4D7004F2865 /* Swiftui_flygg_resorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F05267F2B0BA4D7004F2865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F05266C2B0BA4D6004F2865 /* Swiftui-flygg-resor */;
+			targetProxy = 1F05267E2B0BA4D7004F2865 /* PBXContainerItemProxy */;
+		};
+		1F0526892B0BA4D7004F2865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F05266C2B0BA4D6004F2865 /* Swiftui-flygg-resor */;
+			targetProxy = 1F0526882B0BA4D7004F2865 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F05268F2B0BA4D7004F2865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F0526902B0BA4D7004F2865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F0526922B0BA4D7004F2865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swiftui-flygg-resor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Sadiiqk.Swiftui-flygg-resor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F0526932B0BA4D7004F2865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swiftui-flygg-resor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Sadiiqk.Swiftui-flygg-resor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F0526952B0BA4D7004F2865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Sadiiqk.Swiftui-flygg-resorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swiftui-flygg-resor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swiftui-flygg-resor";
+			};
+			name = Debug;
+		};
+		1F0526962B0BA4D7004F2865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Sadiiqk.Swiftui-flygg-resorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swiftui-flygg-resor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swiftui-flygg-resor";
+			};
+			name = Release;
+		};
+		1F0526982B0BA4D7004F2865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Sadiiqk.Swiftui-flygg-resorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swiftui-flygg-resor";
+			};
+			name = Debug;
+		};
+		1F0526992B0BA4D7004F2865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-Sadiiqk.Swiftui-flygg-resorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swiftui-flygg-resor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F0526682B0BA4D6004F2865 /* Build configuration list for PBXProject "Swiftui-flygg-resor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F05268F2B0BA4D7004F2865 /* Debug */,
+				1F0526902B0BA4D7004F2865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0526912B0BA4D7004F2865 /* Build configuration list for PBXNativeTarget "Swiftui-flygg-resor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0526922B0BA4D7004F2865 /* Debug */,
+				1F0526932B0BA4D7004F2865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0526942B0BA4D7004F2865 /* Build configuration list for PBXNativeTarget "Swiftui-flygg-resorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0526952B0BA4D7004F2865 /* Debug */,
+				1F0526962B0BA4D7004F2865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0526972B0BA4D7004F2865 /* Build configuration list for PBXNativeTarget "Swiftui-flygg-resorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0526982B0BA4D7004F2865 /* Debug */,
+				1F0526992B0BA4D7004F2865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F0526652B0BA4D6004F2865 /* Project object */;
+}
